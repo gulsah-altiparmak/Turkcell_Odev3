@@ -13,6 +13,10 @@
 		807B850A25B442C800F41177 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807B850825B442C800F41177 /* Main.storyboard */; };
 		807B850C25B442C900F41177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 807B850B25B442C900F41177 /* Assets.xcassets */; };
 		807B850F25B442C900F41177 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807B850D25B442C900F41177 /* LaunchScreen.storyboard */; };
+		807B851F25B47D8D00F41177 /* Art.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807B851E25B47D8D00F41177 /* Art.swift */; };
+		807B852325B47DFD00F41177 /* ArtTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807B852225B47DFD00F41177 /* ArtTableView.swift */; };
+		807B852625B47E9600F41177 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807B852525B47E9600F41177 /* CustomCell.swift */; };
+		807B852925B4A09E00F41177 /* ArtDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807B852825B4A09E00F41177 /* ArtDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		807B850B25B442C900F41177 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		807B850E25B442C900F41177 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		807B851025B442C900F41177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		807B851E25B47D8D00F41177 /* Art.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Art.swift; sourceTree = "<group>"; };
+		807B852225B47DFD00F41177 /* ArtTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtTableView.swift; sourceTree = "<group>"; };
+		807B852525B47E9600F41177 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		807B852825B4A09E00F41177 /* ArtDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				807B850B25B442C900F41177 /* Assets.xcassets */,
 				807B850D25B442C900F41177 /* LaunchScreen.storyboard */,
 				807B851025B442C900F41177 /* Info.plist */,
+				807B851E25B47D8D00F41177 /* Art.swift */,
+				807B852225B47DFD00F41177 /* ArtTableView.swift */,
+				807B852525B47E9600F41177 /* CustomCell.swift */,
+				807B852825B4A09E00F41177 /* ArtDetail.swift */,
 			);
 			path = Turkcell_Odev3;
 			sourceTree = "<group>";
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				807B852325B47DFD00F41177 /* ArtTableView.swift in Sources */,
 				807B850725B442C800F41177 /* ViewController.swift in Sources */,
 				807B850325B442C800F41177 /* AppDelegate.swift in Sources */,
+				807B852925B4A09E00F41177 /* ArtDetail.swift in Sources */,
+				807B851F25B47D8D00F41177 /* Art.swift in Sources */,
+				807B852625B47E9600F41177 /* CustomCell.swift in Sources */,
 				807B850525B442C800F41177 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
